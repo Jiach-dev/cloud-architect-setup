@@ -33,6 +33,7 @@ Before running the scripts, ensure you have the following tools installed:
 - **Docker**: For containerization (if you plan to deploy Dockerized services).
 
 **Setup for AWS**
+
 To set up AWS services, follow these steps:
 
 1. Terraform Setup for S3:
@@ -61,6 +62,7 @@ bash upload_test.sh
 ```
 
 **Setup for Azure**
+
 To set up Azure services, follow these steps:
 
 1. Bicep Template for Blob Storage:
