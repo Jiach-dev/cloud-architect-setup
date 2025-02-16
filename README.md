@@ -1,7 +1,12 @@
-**Cloud Architect Setup**
-This repository contains automation scripts and Infrastructure as Code (IaC) templates for setting up cloud services on AWS and Azure. It provides reusable configurations and setup scripts to deploy and manage file storage (S3 for AWS, Blob Storage for Azure). Additionally, it includes workflows for CI/CD automation to streamline the deployment process.
+# **Cloud Architect Setup**
 
+This repository contains automation scripts and Infrastructure as Code (IaC) templates for setting up cloud services on **AWS** and **Azure**. It provides reusable configurations and setup scripts to deploy and manage file storage (S3 for AWS, Blob Storage for Azure). Additionally, it includes workflows for CI/CD automation to streamline the deployment process.
 
+---
+
+## **Directory Structure**
+
+```bash
 ├── README.md               # Project overview and instructions
 ├── aws
 │   ├── README.md           # AWS-specific setup instructions
