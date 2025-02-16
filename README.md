@@ -20,7 +20,7 @@ This repository contains automation scripts and Infrastructure as Code (IaC) tem
     ├── setup_blob.sh       # Shell script to create Blob storage
     ├── setup_blob.tf       # Terraform script for Azure Blob storage setup
     └── upload_test.sh      # Shell script to upload test files to Azure Blob storage
-
+```
 
 **Getting Started**
 **Prerequisites**
