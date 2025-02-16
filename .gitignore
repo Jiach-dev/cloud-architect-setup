@@ -1,0 +1,4 @@
+# Ignore sensitive credentials
+.env
+*.tfstate
+.terraform/
