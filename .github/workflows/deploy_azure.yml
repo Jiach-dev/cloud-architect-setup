@@ -1,0 +1,29 @@
+name: Deploy Azure Setup
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy_blob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Azure CLI
+        uses: azure/setup-azure-cli@v1
+        with:
+          azure-version: latest
+
+      - name: Execute Azure Blob Setup Script
+        run: |
+          chmod +x azure/setup_blob.sh
+          ./azure/setup_blob.sh
+
+      - name: Upload Test File to Azure Blob
+        run: |
+          chmod +x azure/upload_test.sh
+          ./azure/upload_test.sh
+
