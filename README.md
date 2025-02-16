@@ -26,11 +26,11 @@ This repository contains automation scripts and Infrastructure as Code (IaC) tem
 **Prerequisites**
 Before running the scripts, ensure you have the following tools installed:
 
-AWS CLI: For interacting with AWS services like S3.
-Azure CLI: For interacting with Azure services like Blob Storage.
-Terraform: For provisioning cloud resources in AWS and Azure.
-Azure Bicep (optional, for Azure resources): If using Bicep files for Azure setup.
-Docker: For containerization (if you plan to deploy Dockerized services).
+- **AWS CLI**: For interacting with AWS services like S3.
+- **Azure CLI**: For interacting with Azure services like Blob Storage.
+- **Terraform**: For provisioning cloud resources in AWS and Azure.
+- **Azure Bicep** (optional, for Azure resources): If using Bicep files for Azure setup.
+- **Docker**: For containerization (if you plan to deploy Dockerized services).
 
 **Setup for AWS**
 To set up AWS services, follow these steps:
